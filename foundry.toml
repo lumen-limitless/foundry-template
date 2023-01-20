@@ -4,10 +4,13 @@ out = 'out'
 libs = ['lib']
 solc = "0.8.17"
 optimize = true
-optimizer_runs = 2000
+optimizer_runs = 5000000
 via-ir = true
 verbosity = 5
 fs_permissions = [{ access = "read-write", path = "./" }]
+
+[fuzz]
+runs = 100000000
 
 [rpc_endpoints]
 goerli = "${RPC_GOERLI}"
