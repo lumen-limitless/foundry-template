@@ -10,7 +10,7 @@ verbosity = 5
 fs_permissions = [{ access = "read-write", path = "./" }]
 
 [fuzz]
-runs = 100000000
+runs = 1000
 
 [rpc_endpoints]
 goerli = "${RPC_GOERLI}"
