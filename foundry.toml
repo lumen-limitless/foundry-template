@@ -9,7 +9,6 @@ via-ir = true
 verbosity = 4
 fs_permissions = [{ access = "read-write", path = "./" }]
 
-# Extreme Fuzzing CI Profile :P
 [profile.ci]
 fuzz_runs = 100_000
 verbosity = 5
