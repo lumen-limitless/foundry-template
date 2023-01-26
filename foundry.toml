@@ -7,6 +7,7 @@ optimize = true
 optimizer_runs = 1000000
 via-ir = true
 verbosity = 4
+ffi = false
 
 [profile.ci]
 fuzz_runs = 100_000
