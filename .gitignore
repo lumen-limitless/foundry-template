@@ -4,4 +4,6 @@ docs/
 broadcast/
 deployments/
 
+solstat_report.md
+
 .env
