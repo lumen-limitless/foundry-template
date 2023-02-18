@@ -1,3 +1,4 @@
+# DEFAULT PROFILE
 [profile.default]
 src = "src"
 out = "out"
@@ -9,11 +10,15 @@ via-ir = true
 verbosity = 1
 ffi = false
 
-[fuzz]
+[profile.default.fuzz]
 runs = 1000
 
+# CI PROFILE
 [profile.ci]
 verbosity = 5
+
+[profile.ci.fuzz]
+runs = 100_000
 
 [rpc_endpoints]
 arbitrum = "${RPC_URL_ARBITRUM}"
