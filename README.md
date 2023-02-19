@@ -4,10 +4,8 @@ This is a template for a Foundry project.
 
 ## Installation
 
-To install with [Foundry](https://github.com/gakonst/foundry):
-
 ```
-forge install [user]/[repo]
+forge init -t [user]/[repo]
 ```
 
 ## Local development
